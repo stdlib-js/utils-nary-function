@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-nary-function",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Create a function that invokes a provided function with a specified number of arguments.",
   "license": "Apache-2.0",
   "author": {
