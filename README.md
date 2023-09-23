@@ -54,6 +54,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+naryFunction = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-nary-function/tags). For example,
+
+```javascript
 naryFunction = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@v0.1.0-umd/browser.js' )
 ```
 
@@ -66,7 +71,7 @@ var naryFunction = require( 'path/to/vendor/umd/utils-nary-function/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -162,7 +167,7 @@ var out = fcn( 1, 2, 3 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
