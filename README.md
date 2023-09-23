@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@esm/index.mjs';
+import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@v0.1.0-esm/index.mjs';
 ```
 
 #### naryFunction( fcn, arity\[, thisArg] )
@@ -140,7 +140,7 @@ var out = fcn( 1, 2, 3 );
 <script type="module">
 
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
-import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@esm/index.mjs';
+import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@v0.1.0-esm/index.mjs';
 
 function fill( i ) {
     return i;
