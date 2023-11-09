@@ -196,6 +196,13 @@ for ( i = 0; i <= x.length; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/utils-mask-arguments`][@stdlib/utils/mask-arguments]</span><span class="delimiter">: </span><span class="description">create a function that invokes a provided function according to an argument mask.</span>
+-   <span class="package-name">[`@stdlib/utils-pick-arguments`][@stdlib/utils/pick-arguments]</span><span class="delimiter">: </span><span class="description">create a function that invokes a provided function with specified arguments.</span>
+
 </section>
 
 <!-- /.related -->
@@ -268,6 +275,14 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/utils-nary-function/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-nary-function/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/utils/mask-arguments]: https://github.com/stdlib-js/utils-mask-arguments
+
+[@stdlib/utils/pick-arguments]: https://github.com/stdlib-js/utils-pick-arguments
+
+<!-- </related-links> -->
 
 </section>
 
