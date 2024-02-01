@@ -45,14 +45,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-nary-function
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@deno/mod.js';
+var naryFunction = require( '@stdlib/utils-nary-function' );
 ```
 
 #### naryFunction( fcn, arity\[, thisArg] )
@@ -134,8 +152,8 @@ var out = fcn( 1, 2, 3 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
-import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@deno/mod.js';
+var filledarrayBy = require( '@stdlib/array-filled-by' );
+var naryFunction = require( '@stdlib/utils-nary-function' );
 
 function fill( i ) {
     return i;
@@ -200,7 +218,7 @@ for ( i = 0; i <= x.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -254,17 +272,20 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
 [deno-url]: https://github.com/stdlib-js/utils-nary-function/tree/deno
+[deno-readme]: https://github.com/stdlib-js/utils-nary-function/blob/deno/README.md
 [umd-url]: https://github.com/stdlib-js/utils-nary-function/tree/umd
+[umd-readme]: https://github.com/stdlib-js/utils-nary-function/blob/umd/README.md
 [esm-url]: https://github.com/stdlib-js/utils-nary-function/tree/esm
+[esm-readme]: https://github.com/stdlib-js/utils-nary-function/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/utils-nary-function/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-nary-function/main/LICENSE
 
 <!-- <related-links> -->
 
-[@stdlib/utils/mask-arguments]: https://github.com/stdlib-js/utils-mask-arguments/tree/deno
+[@stdlib/utils/mask-arguments]: https://github.com/stdlib-js/utils-mask-arguments
 
-[@stdlib/utils/pick-arguments]: https://github.com/stdlib-js/utils-pick-arguments/tree/deno
+[@stdlib/utils/pick-arguments]: https://github.com/stdlib-js/utils-pick-arguments
 
 <!-- </related-links> -->
 
