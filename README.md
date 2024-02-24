@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-nary-function/tags). For example,
+
+```javascript
 import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@v0.2.1-esm/index.mjs';
 ```
 
@@ -140,7 +145,7 @@ var out = fcn( 1, 2, 3 );
 <script type="module">
 
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
-import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@v0.2.1-esm/index.mjs';
+import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@esm/index.mjs';
 
 function fill( i ) {
     return i;
