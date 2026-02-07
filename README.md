@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@deno/mod.js';
+import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@v0.2.4-deno/mod.js';
 ```
 
 #### naryFunction( fcn, arity\[, thisArg] )
@@ -135,7 +135,7 @@ var out = fcn( 1, 2, 3 );
 
 ```javascript
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
-import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@deno/mod.js';
+import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@v0.2.4-deno/mod.js';
 
 function fill( i ) {
     return i;
